@@ -143,7 +143,7 @@ namespace Lab_13
                 return level;
             }
         }
-        public void Print()
+        public new void Print()
         {
             base.Print();
             Console.WriteLine("           Этажность здания: {0}", level);
